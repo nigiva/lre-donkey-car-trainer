@@ -10,7 +10,6 @@ cffi==1.14.6
 charset-normalizer==2.0.4
 clang==5.0
 cycler==0.10.0
--e git+ssh://git@gitlab.com/Nigiva/donkey-car-trainer.git@d68a1bcd650f9bafbeecc91e29316b51bc11cbd3#egg=dctrainer
 debugpy==1.4.1
 decorator==5.0.9
 defusedxml==0.7.1
