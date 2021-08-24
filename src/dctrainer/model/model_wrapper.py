@@ -29,4 +29,5 @@ class DCModelWrapper:
         LoadedBrain = load_source(wrapper_path, class_name_to_load="Brain")
         loaded_brain_instance = LoadedBrain()
         loaded_brain_instance.load_model(LoadedBrain.get_model_path(path))
+        loaded_brain_instance.load_wrapper_code_path = path
         return loaded_brain_instance

@@ -2,6 +2,17 @@ import inspect
 from IPython.core.magics.code import extract_symbols
 import sys
 
+import os
+import numpy as np
+import pandas as pd
+from PIL import Image
+import base64
+from io import BytesIO
+import tensorflow as tf
+from tensorflow import keras
+from loguru import logger
+import shutil
+
 """
 CC BY-SA 4.0
 Inspired by Evann Courdier and Nikita Kitaev
