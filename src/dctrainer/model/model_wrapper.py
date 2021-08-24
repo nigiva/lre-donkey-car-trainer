@@ -1,5 +1,7 @@
 import os
+from loguru import logger
 from dctrainer.utils.inspector import load_source
+from dctrainer.utils.utils import build_log_tag
 
 class DCModelWrapper:
     def input_transformer(self, request):
@@ -25,6 +27,7 @@ class DCModelWrapper:
 
     @staticmethod
     def load(path, wrapper_filename="wrapper.code"):
+        logger.info(build_log_tag("LOAD WRAPPER AND MODEL", path=path))
         wrapper_path = os.path.join(path, wrapper_filename)
         LoadedBrain = load_source(wrapper_path, class_name_to_load="Brain")
         loaded_brain_instance = LoadedBrain()
