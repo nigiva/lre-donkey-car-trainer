@@ -20,6 +20,7 @@ google-auth==1.35.0
 google-auth-oauthlib==0.4.5
 google-pasta==0.2.0
 grpcio==1.39.0
+gviz-api==1.9.0
 h5py==3.1.0
 idna==3.2
 ipykernel==6.2.0
@@ -85,6 +86,7 @@ Send2Trash==1.8.0
 six==1.15.0
 tensorboard==2.6.0
 tensorboard-data-server==0.6.1
+tensorboard-plugin-profile==2.5.0
 tensorboard-plugin-wit==1.8.0
 tensorflow==2.6.0
 tensorflow-estimator==2.6.0
