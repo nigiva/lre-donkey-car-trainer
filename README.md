@@ -1,8 +1,3 @@
-# dctrainer
+# Donkey Car Trainer
 
-Project for the training of an intelligent agent
-
-
-## Description
-
-TODO
+Project for the training of an autonomous donkey car !
